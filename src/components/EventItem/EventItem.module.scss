@@ -1,0 +1,7 @@
+.block{
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  &:not(:last-child){
+    margin-bottom: 15px;
+  }
+}
